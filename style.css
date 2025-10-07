@@ -15,7 +15,7 @@ body::after {
 
 body {
     background-color: #7ED957;
-    font-family: 'Roboto', 'Poppins', sans-serif;
+    font-family:  'Poppins', sans-serif;
     color: #222;
     margin: 0;
     padding: 0;
@@ -115,4 +115,36 @@ h4 {
         padding: 1rem;
         border-radius: 0;
     }
+}
+
+.extras{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+aside{
+
+    width: 40vw;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 24px;
+    background-color: #7ED957;
+    display: flex;
+    flex-flow: column wrap;
+    
+    box-shadow: 0 4px 16px rgba(76, 175, 80, 0.12);
+    max-width: 900px;
+}
+
+li {
+    font-size: 1.2rem;
+    font-weight: 00;
+    color: #000000;
+    margin-bottom: 0.2rem;
+}
+footer{
+    width: 100%;
+    background-color: #7ED957;
+    text-align: center;
 }
